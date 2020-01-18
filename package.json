@@ -4,9 +4,13 @@
   "description": "Scalable and delightful way to write #hapijs app with #typescript #hapily",
   "bugs": "https://github.com/nomadovoip/hapi-typescript-boilerplate/issues",
   "homepage": "https://www.nomado.eu",
-  "main": "bootstrap.js",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon -e ts  --exec \"npm run start:server\"",
+    "start:server" : "npm run build && node ./dist/main.js",
+    "build": "tsc",
+    "dev": "nodemon -e ts ",
+    "test": "jest"
   },
   "keywords": [
     "boilerplate",
@@ -22,5 +26,22 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/nomadovoip/hapi-typescript-boilerplate"
+  },
+  "dependencies": {
+    "@hapi/boom": "^9.0.0",
+    "@hapi/hapi": "^19.0.5",
+    "@hapi/joi": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/hapi__hapi": "^19.0.0",
+    "@types/jest": "^24.9.0",
+    "concurrently": "^5.0.2",
+    "jest": "^24.9.0",
+    "nodemon": "^2.0.2",
+    "ts-jest": "^24.3.0",
+    "typescript": "^3.7.5"
+  },
+  "engines": {
+    "node": ">= 12"
   }
 }
