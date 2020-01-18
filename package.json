@@ -10,7 +10,8 @@
     "start:server" : "npm run build && node ./dist/main.js",
     "build": "tsc",
     "dev": "nodemon -e ts ",
-    "test": "jest"
+    "test": "jest",
+    "test:watch": "jest --watchAll --coverage"
   },
   "keywords": [
     "boilerplate",
