@@ -1,12 +1,26 @@
 {
   "name": "hapi-typescript-boilerplate",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Scalable and delightful way to write #hapijs app with #typescript #hapily",
+  "bugs": "https://github.com/nomadovoip/hapi-typescript-boilerplate/issues",
+  "homepage": "https://www.nomado.eu",
+  "main": "bootstrap.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "boilerplate",
+    "hapi.js",
+    "typescript",
+    "nomado",
+    "docker",
+    "docker swarm",
+    "gitlab"
+  ],
+  "author": "Asad Rizvi <alex@nomado.eu> (https://www.linkedin.com/in/aleyrizvi/)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nomadovoip/hapi-typescript-boilerplate"
+  }
 }
