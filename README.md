@@ -57,10 +57,10 @@ npm t
 
 Running tests in watch mode along with coverage
 ```node
-npm run dev
+npm run test:watch
 ```
 
-OR without coverage
+**OR** without coverage
 
 ```node
 npm run test -- --watch
