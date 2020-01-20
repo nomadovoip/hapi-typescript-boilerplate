@@ -1,5 +1,7 @@
 import { Server, ServerOptions } from '@hapi/hapi'
 import config from './config'
+import routes from './routes'
+
 
 const options: ServerOptions = {
     port: config.port
@@ -8,7 +10,7 @@ const options: ServerOptions = {
 const server = new Server(options)
 
 // TODO: Fetch and load routes
-
+server.route(routes)
 
 // Initialise funciton for supertest
 
