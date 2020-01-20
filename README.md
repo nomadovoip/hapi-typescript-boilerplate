@@ -97,7 +97,7 @@ In progress.
  - [x] Folder structure
  - [ ] `supertest` integration
  - [ ] Write example test with `jest` and `supertest`
- - [ ] Write Dockerfile
+ - [x] Write Dockerfile
  - [ ] Write docker-compose.yml file
  - [ ] Write `FAQ`
  - [ ] Write `Features`
