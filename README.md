@@ -94,9 +94,11 @@ In progress.
  - [x] `Webpack`
  - [x] `Jest` configuration
  - [x] LICENSE
- - [ ] Folder structure
+ - [x] Folder structure
  - [ ] `supertest` integration
  - [ ] Write example test with `jest` and `supertest`
+ - [ ] Write Dockerfile
+ - [ ] Write docker-compose.yml file
  - [ ] Write `FAQ`
  - [ ] Write `Features`
  - [ ] Configure `TravisCI`
