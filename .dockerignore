@@ -1,0 +1,8 @@
+*
+
+!main.ts
+!src/
+!webpack.config.ts
+!package.json
+!package-lock.json
+!tsconfig.json

@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "outDir": "./dist",
+      "allowJs": false,
+      "target": "es2020",
+      "sourceMap": true,
+      "module": "commonjs",
+      "esModuleInterop": true,
+      "moduleResolution": "node",
+    },
+    "include": [
+      "main.ts",
+      "./src/**/*",
+    ],
+    "exclude": ["node_modules", "webpack.*.js"]
+  }
