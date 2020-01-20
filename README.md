@@ -1,5 +1,3 @@
-(Important, this repository is not completed yet. We are migrating our closed source kit here)
-
 # Hapi.js and typescript scaffolding 
 We @ [nomado](https://www.nomado.eu) love [hapi.js](https://www.hapi.dev). If you haven't used this beautiful, scalable and carefully crafted framework for real world application, you should check it out!
 
