@@ -29,10 +29,14 @@
   "dependencies": {
     "@hapi/boom": "^9.0.0",
     "@hapi/hapi": "^19.0.5",
-    "@hapi/joi": "^17.0.2"
+    "@hapi/joi": "^17.0.2",
+    "@hapi/podium": "^4.0.0",
+    "install": "^0.13.0",
+    "npm": "^6.13.6"
   },
   "devDependencies": {
     "@types/hapi__hapi": "^19.0.0",
+    "@types/hapi__podium": "^3.4.0",
     "@types/jest": "^24.9.0",
     "@types/node": "^13.1.8",
     "@types/webpack": "^4.41.2",
