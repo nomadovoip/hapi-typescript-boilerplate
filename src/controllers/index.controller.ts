@@ -1,7 +1,6 @@
 import {Request, ResponseToolkit} from '@hapi/hapi'
 import response from '../utils/response'
 import { Boom } from '@hapi/boom'
-import Podium from '@hapi/podium'
 
 
 export default async (request: Request, h: ResponseToolkit): Promise<any> => {
@@ -13,9 +12,7 @@ export default async (request: Request, h: ResponseToolkit): Promise<any> => {
         }
     )
     
-    const emitter = request.server.app['emitter']
-
-    emitter.emit('index.route', "Index route!")
+    request.server.events.emit('IndexRoute', "Event triggers from Index route.")
 
     return h.response(payload)
 

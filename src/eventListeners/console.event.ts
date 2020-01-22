@@ -1,20 +1,14 @@
-import Podium from '@hapi/podium'
 import {iplugin} from '../config/interfaces'
 
 
 const plugin: iplugin =  {
     name: 'event listener',
     register: async function (server, options){
-        const emitter: Podium = new Podium()
         
-        emitter.registerEvent({
-            name: 'index.route',
-            channels: ['log']
-        })
+        server.event('IndexRoute')
 
-        server.app['emitter'] = emitter
-
-        emitter.on("index.route", async (payload) => console.log(payload))
+        // @ts-ignore
+        server.events.on('IndexRoute', (payload) => console.log(payload))
 
     }
 }
